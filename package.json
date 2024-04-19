@@ -1,0 +1,44 @@
+{
+  "name": "hundun-ui-library",
+  "version": "1.0.8",
+  "description": "",
+  "main": "dist/hundun-ui-library.cjs.js",
+  "module": "dist/hundun-ui-library.esm.js",
+  "browser": "dist/hundun-ui-library.umd.js",
+  "scripts": {
+    "build": "rm -rf dist && rollup -c rollup.prod.config.js "
+  },
+  "files": [
+    "dist/*",
+    "!src",
+    "package.json"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-html": "^1.0.3",
+    "autoprefixer": "^10.4.19",
+    "babel-plugin-component": "^1.1.1",
+    "cssnano": "^6.1.2",
+    "element-ui": "^2.15.10",
+    "node-sass": "^9.0.0",
+    "postcss": "^8.4.38",
+    "rollup": "^4.14.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-scss": "^4.0.0",
+    "rollup-plugin-serve": "^1.1.1",
+    "rollup-plugin-vue": "^5.1.9",
+    "sass": "^1.74.1",
+    "vue": "^2.7.16",
+    "vue-template-compiler": "^2.7.16"
+  }
+}

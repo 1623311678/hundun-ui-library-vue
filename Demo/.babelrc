@@ -1,0 +1,25 @@
+{
+  "presets": [
+    ["@babel/preset-env", { "modules": false }]
+  ],
+  "plugins": [
+    [
+      "component",
+      {
+        "libraryName": "element-ui",
+        "styleLibraryName": "theme-chalk"
+      },
+      "element-ui"
+    ],
+    [
+      "component",
+      {
+        "libraryName": "hundun-ui-library",
+        "libDir": "dist/lib/components",
+        "libraryDirectory": "components",
+        "style": false
+      },
+      "hundun-ui-library"
+    ]
+  ]
+}
