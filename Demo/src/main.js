@@ -4,7 +4,7 @@ import App from "./App.vue";
 import VueRouter from "vue-router";
 import router from "./router";
 import { Button,Select,Container,Header,Menu,MenuItem,MenuItemGroup,Submenu } from "element-ui";
-import { HDButton } from '../../src/index'
+import { HDButton } from 'hundun-ui-library'
 import './theme.scss'
 import 'normalize.css/normalize.css'
 Vue.use(Button);
